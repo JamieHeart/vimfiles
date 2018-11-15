@@ -1,5 +1,6 @@
 set path+=**
 
+set termguicolors
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set number
 set wildmenu
@@ -17,6 +18,8 @@ set autoindent
 
 set noswapfile
 set nobackup
+
+command! Q :q
 
 
 syntax on
