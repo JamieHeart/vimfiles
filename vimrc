@@ -1,7 +1,7 @@
 set path+=**
 
 set termguicolors
-set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
+set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P\ %{fugitive#statusline()}
 set number
 set wildmenu
 set hidden
@@ -44,5 +44,5 @@ if has("autocmd")
 		au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
 
-nmap <F8> :TagbarToggle<CR>
-nmap <F9> :TagbarOpen<CR>
+nnoremap <F8> :TagbarToggle<CR>
+
