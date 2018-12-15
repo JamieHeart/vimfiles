@@ -19,6 +19,8 @@ set autoindent
 set noswapfile
 set nobackup
 
+set cc=120
+
 command! Q :q
 
 
@@ -33,3 +35,9 @@ filetype indent plugin on
 "	File browser settings
 let g:netrw_banner		= 0
 let g:netrw_liststyle		= 3
+
+" Uncomment the following to have Vim jump to the last position when
+" reopening a file
+if has("autocmd")
+		au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
