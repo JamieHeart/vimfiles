@@ -11,8 +11,6 @@ else
 		ln -s ${PWD}/vimrc ${VIMRC}
 fi
 
-#	nope, use the native package manager
-exit 0
 #	Install pathogen
 if [ ! -e "${AUTOLOAD}" ] ; then
 		mkdir -p "${AUTOLOAD}"
