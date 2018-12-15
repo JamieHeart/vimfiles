@@ -23,6 +23,8 @@ set cc=120
 
 command! Q :q
 
+"	Use packages!
+execute pathogen#infect()
 
 syntax on
 
