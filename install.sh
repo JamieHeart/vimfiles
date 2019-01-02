@@ -48,4 +48,9 @@ else
 fi
 
 #	Install vim-plug
+if [ -d "./autoload/plug.vim" ] ; then
+		echo "plug.vim already installed"
+else
+		ln -s ${PWD}/autoload/plug.vim ${AUTOLOAD}
+fi
 #curl -fLo ./autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
