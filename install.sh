@@ -27,11 +27,11 @@ else
 fi
 
 #	Install Tagbar
-if [ -d "${BUNDLE}/tagbar" ] ; then
-		echo "tagbar already instaled"
-else
-		ln -s ${PWD}/tagbar ${BUNDLE}
-fi
+# if [ -d "${BUNDLE}/tagbar" ] ; then
+# 		echo "tagbar already instaled"
+# else
+# 		ln -s ${PWD}/tagbar ${BUNDLE}
+# fi
 
 #	Install vim-fugitive
 if [ -d "${BUNDLE}/vim-fugitive" ] ; then
@@ -39,3 +39,13 @@ if [ -d "${BUNDLE}/vim-fugitive" ] ; then
 else
 		ln -s ${PWD}/vim-fugitive ${BUNDLE}
 fi
+
+#	Install ctrlp
+if [ -d "${BUNDLE}/ctrlp.vim" ] ; then
+		echo "ctrlp already installed"
+else
+		ln -s ${PWD}/bundle/ctrlp.vim ${BUNDLE}
+fi
+
+#	Install vim-plug
+#curl -fLo ./autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
