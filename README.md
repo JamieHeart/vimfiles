@@ -6,5 +6,5 @@ This will 'install' my vim settings into the ~ of the user who invokes it
 
 ##		Plugins
 
-###		inside/vim-search-pulst
+###		inside/vim-search-pulse
 Flash the entire line when match on n N 
