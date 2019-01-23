@@ -19,7 +19,7 @@ set autoindent
 set noswapfile
 set nobackup
 
-set cc=120
+"	set cc=120
 
 command! Q :q
 
@@ -52,5 +52,8 @@ Plug 'lilydjwg/colorizer'
 Plug 'luochen1990/rainbow'
 Plug 'RRethy/vim-illuminate'
 Plug 'inside/vim-search-pulse'
+Plug 'vim-scripts/confluencewiki.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'airblade/vim-gitgutter'
 
 call plug#end()
