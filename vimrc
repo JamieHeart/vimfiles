@@ -9,6 +9,8 @@ set showcmd
 set hlsearch
 set incsearch
 set tabstop=4
+set shiftwidth=4
+set expandtab
 set laststatus=2
 set visualbell
 set cmdheight=2
