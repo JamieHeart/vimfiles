@@ -55,10 +55,12 @@ Plug 'lilydjwg/colorizer'
 Plug 'luochen1990/rainbow'
 Plug 'RRethy/vim-illuminate'
 Plug 'inside/vim-search-pulse'
-"	Plug 'vim-scripts/confluencewiki.vim'
+Plug 'vim-scripts/confluencewiki.vim'
 "	Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
 Plug 'mikelue/vim-maven-plugin'
 Plug 'scrooloose/nerdtree'
 
 call plug#end()
+
+autocmd BufNewFile,BufRead *.jira set filetype=confluencewiki
