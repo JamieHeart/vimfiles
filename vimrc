@@ -30,6 +30,7 @@ syntax on
 
 "	Mappings
 nnoremap <C-L> :nohl<CR><C-L>
+nnoremap <F9> :w<CR>:!javac %<CR>
 
 "	File based settings
 filetype indent plugin on
