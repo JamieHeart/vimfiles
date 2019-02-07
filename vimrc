@@ -9,6 +9,8 @@ set showcmd
 set hlsearch
 set incsearch
 set tabstop=4
+set shiftwidth=4
+set expandtab
 set laststatus=2
 set visualbell
 set cmdheight=2
@@ -53,8 +55,10 @@ Plug 'lilydjwg/colorizer'
 Plug 'luochen1990/rainbow'
 Plug 'RRethy/vim-illuminate'
 Plug 'inside/vim-search-pulse'
-Plug 'vim-scripts/confluencewiki.vim'
-Plug 'scrooloose/nerdcommenter'
+"	Plug 'vim-scripts/confluencewiki.vim'
+"	Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
+Plug 'mikelue/vim-maven-plugin'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
