@@ -49,7 +49,7 @@ endif
 
 " nnoremap <F8> :TagbarToggle<CR>
 
-call plug#begin('~/.vim/plugged')
+silent call plug#begin('~/.vim/plugged')
 
 Plug 'lilydjwg/colorizer'
 Plug 'luochen1990/rainbow'
@@ -60,6 +60,7 @@ Plug 'vim-scripts/confluencewiki.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'mikelue/vim-maven-plugin'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-jdaddy'
 
 call plug#end()
 
