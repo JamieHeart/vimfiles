@@ -49,7 +49,7 @@ endif
 
 " nnoremap <F8> :TagbarToggle<CR>
 
-call plug#begin('~/.vim/plugged')
+silent call plug#begin('~/.vim/plugged')
 
 Plug 'lilydjwg/colorizer'
 Plug 'luochen1990/rainbow'
@@ -60,7 +60,10 @@ Plug 'vim-scripts/confluencewiki.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'mikelue/vim-maven-plugin'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-jdaddy'
 
 call plug#end()
 
 autocmd BufNewFile,BufRead *.jira set filetype=confluencewiki
+autocmd BufNewFile,BufRead *.jsp set filetype=java
+autocmd BufNewFile,BufRead *.sugar set filetype=json
