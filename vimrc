@@ -67,3 +67,5 @@ call plug#end()
 autocmd BufNewFile,BufRead *.jira set filetype=confluencewiki
 autocmd BufNewFile,BufRead *.jsp set filetype=java
 autocmd BufNewFile,BufRead *.sugar set filetype=json
+
+colorscheme elflord
