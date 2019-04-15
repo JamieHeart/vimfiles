@@ -32,7 +32,9 @@ syntax on
 
 "	Mappings
 nnoremap <C-L> :nohl<CR><C-L>
-nnoremap <F9> :w<CR>:!javac %<CR>
+nnoremap <C-C> :copen<CR>
+nnoremap <C-j> :cn<CR>
+nnoremap <C-k> :cp<CR>
 
 "	File based settings
 filetype indent plugin on
