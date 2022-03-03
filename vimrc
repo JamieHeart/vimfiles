@@ -53,16 +53,16 @@ endif
 
 silent call plug#begin('~/.vim/plugged')
 
-Plug 'lilydjwg/colorizer'
+"   Plug 'lilydjwg/colorizer'
 "   Plug 'luochen1990/rainbow'
 "   Plug 'RRethy/vim-illuminate'
 "   Plug 'inside/vim-search-pulse'
-Plug 'vim-scripts/confluencewiki.vim'
+"   Plug 'vim-scripts/confluencewiki.vim'
 "	Plug 'scrooloose/nerdcommenter'
 Plug 'airblade/vim-gitgutter'
-Plug 'mikelue/vim-maven-plugin'
-Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-jdaddy'
+"   Plug 'mikelue/vim-maven-plugin'
+"   Plug 'scrooloose/nerdtree'
+"   Plug 'tpope/vim-jdaddy'
 
 call plug#end()
 
